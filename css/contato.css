@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #fcf7d3;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+ h1{
+    color: rgb(158, 0, 0);
+    font-size: 7em;
+    text-shadow: 6px 3px 3px rgba(158, 0, 0, 0.5);
+}
+
+ h2{
+    color: #9e0000;
+    font-size: 2.5em;
+    text-align: end;
+    margin: 1rem 0;
+}
+
+.form{
+    border: 3px solid #9e0000;
+    border-radius: 20px;
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 800px;
+}
+
+.form label{
+    font-family: "Abril Fatface";
+    font-size: 3em;
+    color: #9e0000;
+    display: block;
+    margin: 1rem 0;
+}
+
+input{
+    padding: 0.8em 7em;
+    border: 3px solid #9e0000;
+    border-radius: 3em;
+    background-color: transparent;
+    color: #5f0600;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.form input:focus {
+    outline: none;
+    border: 3px solid #9e0000;
+}
+
+::-webkit-input-placeholder{
+    color: #9e0000;
+}
+
+#message{
+    margin-top: 1em;
+    padding: 2em em;
+}
+
+.form button{
+    padding: 15px 20px;
+    font-size: 2em;
+    background-color: #5f0600;
+    color: #fcf7d3;
+    border: 2px solid #5f0600;
+    border-radius: 30px;
+    font-family: "Abril Fatface";
+    display: block;
+    margin: 2rem auto;
+    cursor: pointer;
+}
+
+.form button a{
+    color: #fcf7d3;
+}
+
+.form button a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos</title>
+  <link rel="stylesheet" href="./css/produtos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chango&family=Croissant+One&family=Gravitas+One&family=Luckiest+Guy&family=Notable&family=Sigmar&display=swap" rel="stylesheet">
+  <link rel="icon" href="./img/avatar.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Notable";
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+    background: #9e0000;
+}
+
+.container {
+  max-width: 110rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.sombra {
+  font-size: 12rem;
+    color: #fcf7d3;
+    padding: 2rem 0;
+    text-shadow: 5px 12px 5px rgba(209, 209, 205, 0.5);
+
+}
+
+#tranding {
+  padding: 4rem 0;
+}
+
+
+#tranding .tranding-slider {
+  padding: 2rem 0;
+  position: relative;
+}
+
+
+.tranding-slide {
+  width: 25rem;
+  height: 30rem;
+  position: relative;
+}
+
+.tranding-slide .tranding-slide-img img {
+  width: 25.9rem;
+  height: 29.4rem;
+  border-radius: 2.5rem;
+  object-fit: cover;
+}
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none;
+}
+
+.tranding-slider-control {
+  position: relative;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tranding-slider-control .swiper-button-next {
+  left: 65% !important;
+  transform: translateX(-65%) !important;
+}
+
+
+.tranding-slider-control .slider-arrow {
+  background-color: #5f0600;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  left: 35%;
+  transform: translateX(-35%);
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.tranding-slider-control .slider-arrow ion-icon {
+  font-size: 2rem;
+  color: #fcf7d3;
+}
+
+.tranding-slider-control .slider-arrow::after {
+  content: '';
+}
+
+.tranding-slider-control .swiper-pagination {
+  position: relative;
+  width: 15rem;
+  bottom: 1rem;
+}
+
+.tranding-slider-control .swiper-pagination .swiper-pagination-bullet {
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.tranding-slider-control .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #fcf7d3;
+}
+</style>
+
+<body>
+    <section id="tranding">
+  <div class="container">
+    <h1 class="sombra">Produtos</h1>
+  </div>
+  <div class="container">
+    <div class="swiper tranding-slider">
+      <div class="swiper-wrapper">
+        <!-- Slide-start -->
+        <div class="swiper-slide tranding-slide">
+          <div class="tranding-slide-img">
+            <a href="./quadro1.html"><img src="https://images.pexels.com/photos/3705944/pexels-photo-3705944.jpeg" alt="Quadro Abstrato Azul"></a>
+          </div>
+        </div>
+        <!-- Slide-end -->
+        <!-- Slide-start -->
+        <div class="swiper-slide tranding-slide">
+          <div class="tranding-slide-img">
+            <a href="./quadro2.html"><img src="https://images.pexels.com/photos/3246668/pexels-photo-3246668.jpeg" alt="Quadro Abstrato Amarelo"></a>
+          </div>
+        </div>
+        <!-- Slide-end -->
+        <!-- Slide-start -->
+        <div class="swiper-slide tranding-slide">
+          <div class="tranding-slide-img">
+            <a href="./quadro1.html"><img src="https://images.pexels.com/photos/3705944/pexels-photo-3705944.jpeg" alt="Quadro Abstrato Azul"></a>
+          </div>
+        </div>
+        <!-- Slide-end -->
+         <!-- Slide-start -->
+        <div class="swiper-slide tranding-slide">
+          <div class="tranding-slide-img">
+            <a href="./quadro2.html"><img src="https://images.pexels.com/photos/3246668/pexels-photo-3246668.jpeg" alt="Quadro Abstrato Amarelo"></a>
+          </div>
+        </div>
+        <!-- Slide-end -->
+         <!-- Slide-start -->
+        <div class="swiper-slide tranding-slide">
+          <div class="tranding-slide-img">
+            <a href="./quadro1.html"><img src="https://images.pexels.com/photos/3705944/pexels-photo-3705944.jpeg" alt="Quadro Abstrato Azul"></a>
+          </div>
+        </div>
+        <!-- Slide-end -->
+         <!-- Slide-start -->
+        <div class="swiper-slide tranding-slide">
+          <div class="tranding-slide-img">
+            <a href="./quadro2.html"><img src="https://images.pexels.com/photos/3246668/pexels-photo-3246668.jpeg" alt="Quadro Abstrato Amarelo"></a>
+          </div>
+        </div>
+        <!-- Slide-end -->
+         <!-- Slide-start -->
+        <div class="swiper-slide tranding-slide">
+          <div class="tranding-slide-img">
+            <a href="./quadro1.html"><img src="https://images.pexels.com/photos/3705944/pexels-photo-3705944.jpeg" alt="Quadro Abstrato Azul"></a>
+          </div>
+        </div>
+        <!-- Slide-end -->
+        <!-- Slide-start -->
+        <div class="swiper-slide tranding-slide">
+          <div class="tranding-slide-img">
+            <a href="./quadro2.html"><img src="https://images.pexels.com/photos/3246668/pexels-photo-3246668.jpeg" alt="Quadro Abstrato Amarelo"></a>
+          </div>
+        </div>
+        <!-- Slide-end -->
+      </div>
+
+      <div class="tranding-slider-control">
+        <div class="swiper-button-prev slider-arrow">
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </div>
+        <div class="swiper-button-next slider-arrow">
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+    var TrandingSlider = new Swiper(".tranding-slider", {
+  effect: "coverflow",
+  grabCursor: true,
+  centeredSlides: true,
+  loop: true,
+  slidesPerView: "auto",
+  coverflowEffect: {
+    rotate: 0,
+    stretch: 0,
+    depth: 100,
+    modifier: 2.5
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev"
+  }
+});
+</script>
+</body>
+</html>

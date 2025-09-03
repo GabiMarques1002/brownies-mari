@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brownies da Mari</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chango&family=Croissant+One&family=Gravitas+One&family=Luckiest+Guy&family=Notable&family=Sigmar&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/avatar.png" type="image/x-icon">
+</head>
+<body>
+    <section id="inicio">
+        <header>
+            <a href="#" class="logo">BROWNIES DA MARI</a>
+    
+            <nav class="navbar">
+                    <a href="#inicio">INÍCIO</a>
+                    <a href="#sobre">SOBRE MIM</a>
+                    <a href="#produtos">PRODUTOS</a>
+                    <a href="#contato">CONTATO</a>
+            </nav>
+        </header>
+
+        <h1 class="sombra ">BROWNIES</h1>
+        <h1 id="fosco">BROWNIES</h1>
+        <h1 id="mais-fosco">BROWNIES</h1>
+
+        <p class="reveal">Transformando emoções em comida, cada pedaço conta uma história única de cores e movimento. Descubra a beleza da arte abstrata em sua forma mais pura e expressiva.</p>
+    </section>
+
+    <section id="intervalo">
+        <a class="reveal" target="_blank" href="https://instagram.com/flwuid_art">Instagram</a>
+        <a class="reveal" href="https://tiktok.com/@flwuidart">TikTok</a>
+        <a class="reveal" href="https://wa.me/5541991494538">Whatsapp</a>
+    </section>
+
+    <section id="sobre">
+        <h1 class="sombra2 reveal">OLÁ,</h1>
+        <h2 class="reveal">ME <br> CHAMO <br> MARIANA</h2>
+        <p class="reveal">Sou uma artista apaixonada pela técnica de fluid art, onde cada obra é uma dança única de cores e texturas. Minha arte busca transmitir emoções através do movimento fluido das tintas.</p>
+    </section>
+
+    <section id="intervalo">
+        <a class="reveal" target="_blank" href="https://instagram.com/flwuid_art">Instagram</a>
+        <a class="reveal" target="_blank" href="https://tiktok.com/@flwuidart">TikTok</a>
+        <a class="reveal" target="_blank" href="https://wa.me/5541991494538">Whatsapp</a>
+    </section>
+
+    <section id="produtos">
+        <h1 class="sombra reveal">VEJA</h1>
+        <h1 class="sombra reveal">NOSSOS</h1>
+        <h1 class="sombra reveal">PRODUTOS</h1>
+
+        <p class="reveal">Cada peça é única e irreproduzível, criada com técnicas especiais de fluid art que garantem resultados surpreendentes. Descubra o poder transformador da arte fluida em sua decoração.</p>
+        <img class="reveal" id="quadro" src="https://images.pexels.com/photos/3705944/pexels-photo-3705944.jpeg" alt="Ondas do Oceano - Arte Fluida">
+        
+        <button class="reveal"><a href="./Produtos.html">VEJA MAIS</a></button>
+    </section>
+
+    <section id="intervalo">
+        <a class="reveal" target="_blank" href="https://instagram.com/flwuid_art">Instagram</a>
+        <a class="reveal" target="_blank" href="https://tiktok.com/@flwuidart">TikTok</a>
+        <a class="reveal" target="_blank" href="https://wa.me/5541991494538">Whatsapp</a>
+    </section>
+
+    <section id="contato">
+        <h1 class="sombra2 reveal">FICOU CURIOSO?</h1>
+        <h2 class="reveal">ENTRE EM CONTATO</h2>
+
+        <div class="form reveal">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" required>
+            <br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" required>
+            <br>
+
+            <label for="message">Mensagem:</label>
+            <input type="text" id="message" required placeholder="Me interessei pelo quadro">
+            <br>
+            <button><a href="./enviado.html">Enviar</a></button>
+        </div>
+    </section>
+
+    <script>
+function revealOnScroll() {
+  const elements = document.querySelectorAll('.reveal');
+  const windowHeight = window.innerHeight;
+  const revealPoint = 150;
+
+  elements.forEach(el => {
+    const elementTop = el.getBoundingClientRect().top;
+
+    if (elementTop < windowHeight - revealPoint) {
+      el.classList.add('active');
+    } else {
+      el.classList.remove('active');
+    }
+  });
+}
+
+window.addEventListener('scroll', revealOnScroll);
+window.addEventListener('load', revealOnScroll); // Ativa animação inicial
+</script>
+
+</body>
+</html>

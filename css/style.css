@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+#inicio{
+    background-color: #f3938f;
+    min-height: 100vh;
+}
+
+#inicio h1{
+    font-family: "Notable";
+    color: #fcf7d3;
+    font-size: 7em;
+    padding: 20px 3em 0;
+}
+
+.sombra{
+    text-shadow: 5px 12px 5px rgba(209, 209, 205, 0.5);
+}
+
+#inicio #fosco{
+    opacity: 60%;
+}
+#inicio #mais-fosco{
+    opacity: 40%;
+}
+
+#inicio p{
+    font-family: "Abril Fatface";
+    color: #fcf7d3;
+    font-size: 2em;
+    padding: 2em;
+    max-width: 1100px;
+    margin: 0 auto 0 7.5em;
+}
+
+
+header{
+    background-color: #fcf7d3;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.logo{
+    color: #f3938f;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: default;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.navbar a{
+    color: #f3938f;
+    font-weight: bold;
+    font-size: 1.8em;
+    padding: 10px 20px;
+}
+
+.navbar a:hover{
+    color: #f3938f;
+    text-decoration: underline;
+}
+
+#sobre{
+    background-color: #fcf7d3;
+    height: 100vh;
+    padding: 2em;
+}
+
+#sobre h1{
+    color: #f3938f;
+    font-size: 10em;
+}
+
+.sombra2{
+    text-shadow: 6px 3px 3px #fcc2c0;
+}
+
+#sobre h2{
+    color: #f3938f;
+    font-size: 7em;
+}
+
+#sobre p{
+    font-family: "Abril Fatface";
+    color: #f3938f;
+    font-size: 2.5em;
+    display: block;
+    max-width: 700px;
+    position: relative;
+    bottom: 13em;
+    left: 15em;
+    right: 0;
+
+}
+
+#intervalo{
+    font-family: "Abril Fatface";
+    background-color: #f7aba9;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+#intervalo a{
+    color: #fcf7d3;
+    font-size: 1.6em;
+    cursor: pointer;
+}
+
+#intervalo a:hover{
+    text-decoration: underline;
+}
+
+#produtos{
+    background-color: #f3938f;
+    min-height: 100vh;
+    padding: 2rem 3rem;
+}
+
+#produtos h1{
+    font-family: "Notable";
+    color: #fcf7d3;
+    font-size: 6.5em;
+}
+
+#produtos p{
+    font-family: "Abril Fatface";
+    color: rgb(252, 247, 211);
+    font-size: 2em;
+    max-width: 800px;
+    margin: 2rem 0;
+}
+
+#produtos #quadro{
+    width: 20%;
+    height: 60%;
+    border-radius: 20px;
+    position: absolute;
+    left: 60em;
+    top: 114em;
+}
+
+#produtos button{
+    padding: 20px;
+    background-color: #fcf7d3;
+    border: none;
+    border-radius: 30px;
+    font-family: "Notable";
+    position: relative;
+    left: 74em;
+    bottom: 10em;
+    cursor: pointer;
+}
+
+#produtos a{
+    color: #f3938f;
+}
+
+#produtos a:hover {
+    text-decoration: underline;
+}
+
+
+#contato{
+    background-color: #fcf7d3;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+#contato h1{
+    color: #f3938f;
+    font-size: 7em;
+}
+
+
+#contato h2{
+    text-align: end;
+    margin: 1rem 0;
+    color: #f3938f;
+    font-size: 2.5em;
+}
+
+.form{
+    border: 3px solid #f3938f;
+    border-radius: 20px;
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 800px;
+}
+
+label{
+    font-family: "Abril Fatface";
+    font-size: 3em;
+    color: #f3938f;
+    display: block;
+    margin: 1rem 0;
+}
+
+input{
+    padding: 0.8em 7em;
+    border: 3px solid #f3938f;
+    border-radius: 3em;
+    background-color: transparent;
+    color: #f3938f;
+    font-size: 15px;
+    font-weight: bold;
+}
+input:focus {
+    outline: none;
+    border: 3px solid #f3938f;
+}
+
+::-webkit-input-placeholder{
+    color: #f3938f;
+}
+#message{
+    margin-top: 1em;
+    padding: 2em 7em;
+}
+
+.form button{
+    padding: 15px 20px;
+    font-size: 2em;
+    background-color: #f3938f;
+    color: #fcf7d3;
+    border: 2px solid #f3938f;
+    border-radius: 30px;
+    font-family: "Abril Fatface";
+    display: block;
+    margin: 2rem auto;
+    cursor: pointer;
+}
+
+.form button a{
+    color: #fcf7d3;
+}
+
+.form button a:hover{
+    text-decoration: underline;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
